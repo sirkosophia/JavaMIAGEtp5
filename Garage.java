@@ -19,13 +19,13 @@ public class Garage {
 	public void add (Vehicul1 v) {
 		Objects.requireNonNull(v, "Vehicul must be not null");
 		lc.add(v);
-		
+		/*
 		ArrayList<Vehicul1> gar = lc;
 
 		Comparator<Vehicul1> compareByValue = 
 				(Vehicul1 o1, Vehicul1 o2) -> Long.compare(o1.getValue(), o2.getValue());
 		Collections.sort(gar, compareByValue);
-		
+		*/
 		/*Comparator<Vehicul1> compareByBrand = 
 			(Vehicul1 o1, Vehicul1 o2) -> o1.getBrand().compareTo( o2.getBrand() );
 		Collections.sort(gar, compareByBrand);
